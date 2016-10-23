@@ -50,6 +50,8 @@ then
 	 	if [ $# -lt 4 ];
 	 	 then
 			resultado="$(($2/$3))"
+		else
+			echo "Demasiados argumentos para esta funcion"
 		fi
 		echo "$resultado"
 		;;
@@ -83,8 +85,11 @@ then
 	"fac")
 	 	if [ $# -lt 3 ];
 	 	 then
-			resultado=factorial "$2"
+			factorial "$2"
+			resultado=$?
 			echo "$resultado"
+		else
+			echo "Demasiados argumentos para esta funcion"
 		fi
 		;;
 	*)
