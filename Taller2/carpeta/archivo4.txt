@@ -1,0 +1,14 @@
+17:07 (*) rickh is a KDE junky
+17:07 (*) |AhIoRoS| [~ahioros@190.140.233.34] has joined #archlinux
+17:07 (*) loomsen_ [~loomsen@dslc-082-083-103-162.pools.arcor-ip.net] has joined #archlinux
+17:07 (*) Connected [~quassel@151.64.203.200] has joined #archlinux
+17:08  MrElendig> you used a menu.lst generator?
+17:08 (*) slyght [~Thilo@dslb-084-056-163-000.pools.arcor-ip.net] has quit [Quit: Verlassend]
+17:08  MrElendig> crazy talk
+17:08  Thanat0s`> the installer
+17:08  kelnoky> lol
+17:08  kelnoky> yeah
+17:08  rickh> My first Linux expierence was a Knoppix live cd version 4 and 5.
+17:08  tigr> oh.  *that* menu.lst generator
+17:08  rob|> omg, wanna here my story of installing linux from dozens of 3.5" floppies..
+17:08  Thanat0s`> ^^

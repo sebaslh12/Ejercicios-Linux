@@ -1,0 +1,13 @@
+17:05  vcs> yeah
+17:06  Thanat0s`> LFS not too hard for everyday use ?
+17:06  vcs> thats why I use it rickh
+17:06  vcs> also ABS is nice
+17:06  rickh> I learned a lot from LFS
+17:06 (*) Raist [~raist@unaffiliated/raist] has quit [Quit: Saliendo]
+17:06  vcs> when i actually get off my ass and use it
+17:06 (*) Evanlec [~el@c-24-63-10-146.hsd1.nh.comcast.net] has joined #archlinux
+17:07  rickh> I had an LFS system with a 2.6.26.5 kernel, KDE 3.5.9, GCC 4.3.2 Glibc 2.8, I still regret I throw that one away.
+17:07  rob|> lfs and kde, now that's a funny combo..
+17:07  daedra> wow
+17:07 (*) loomsen_ [~loomsen@dslc-082-083-103-162.pools.arcor-ip.net] has quit [Quit: Leaving]
+17:07  Thanat0s`> My fir

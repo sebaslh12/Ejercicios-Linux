@@ -1,0 +1,40 @@
+17:05  vcs> yeah
+17:06  Thanat0s`> LFS not too hard for everyday use ?
+17:06  vcs> thats why I use it rickh
+17:06  vcs> also ABS is nice
+17:06  rickh> I learned a lot from LFS
+17:06 (*) Raist [~raist@unaffiliated/raist] has quit [Quit: Saliendo]
+17:06  vcs> when i actually get off my ass and use it
+17:06 (*) Evanlec [~el@c-24-63-10-146.hsd1.nh.comcast.net] has joined #archlinux
+17:07  rickh> I had an LFS system with a 2.6.26.5 kernel, KDE 3.5.9, GCC 4.3.2 Glibc 2.8, I still regret I throw that one away.
+17:07  rob|> lfs and kde, now that's a funny combo..
+17:07  daedra> wow
+17:07 (*) loomsen_ [~loomsen@dslc-082-083-103-162.pools.arcor-ip.net] has quit [Quit: Leaving]
+17:07  Thanat0s`> My first true Linux experience is Arch a few years ago and the GRUB menu.lst generator was buggy =) what a headache to get the damn Linux to boot but I got it =)
+17:07 (*) rickh is a KDE junky
+17:07 (*) |AhIoRoS| [~ahioros@190.140.233.34] has joined #archlinux
+17:07 (*) loomsen_ [~loomsen@dslc-082-083-103-162.pools.arcor-ip.net] has joined #archlinux
+17:07 (*) Connected [~quassel@151.64.203.200] has joined #archlinux
+17:08  MrElendig> you used a menu.lst generator?
+17:08 (*) slyght [~Thilo@dslb-084-056-163-000.pools.arcor-ip.net] has quit [Quit: Verlassend]
+17:08  MrElendig> crazy talk
+17:08  Thanat0s`> the installer
+17:08  kelnoky> lol
+17:08  kelnoky> yeah
+17:08  rickh> My first Linux expierence was a Knoppix live cd version 4 and 5.
+17:08  tigr> oh.  *that* menu.lst generator
+17:08  rob|> omg, wanna here my story of installing linux from dozens of 3.5" floppies..
+17:08  Thanat0s`> ^^
+17:08  rob|> that was slackware actually
+17:09  rob|> with fvwm
+17:09  npnth> fvwm
+17:09  npnth> lol
+17:09 (*) Sansui350A [~Sansui350@c-76-111-229-65.hsd1.fl.comcast.net] has quit [Remote host closed the connection]
+17:09  rob|> and it was great fun fiddling around, although it was of no real use..
+17:09  Thanat0s`> Arch just fit my need and I looove rolling distros as I like to be on the edge
+17:09  rickh> Ubuntu 7.04 on PC with a 7600GS, the danm thing didnt get reconized, meaning tweaking hours to get the X to boot.
+17:09 (*) laumars [~lau@host86-169-221-172.range86-169.btcentralplus.com] has quit [Remote host closed the connection]
+17:09 (*) flo08 [~flo08@77-253-88-230.adsl.inetia.pl] has quit [Quit: WeeChat 0.3.3]
+17:10  snL20> Thanat0s`: theres something wrong with the world today I dont know what it is....
+17:10  rob|> npnth: fvwm is still a great WM, nothing can beat its flexibility
+17:10  Thanat0s`> snL20 ??

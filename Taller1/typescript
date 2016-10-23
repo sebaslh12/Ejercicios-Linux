@@ -1,0 +1,80 @@
+Script started on lun 05 sep 2016 11:46:32 COT
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ mkdr[Kir -p taller1{[K/{a,b,c}
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ cd taller1/
+]0;sebas@sebas-N46VB: ~/taller1[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1[01;31m[00m$ find . -type d -exec touch {}/ac[Krchivo \;
+]0;sebas@sebas-N46VB: ~/taller1[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1[01;31m[00m$ rm -f archivo 
+]0;sebas@sebas-N46VB: ~/taller1[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1[01;31m[00m$ mv c d[Kb
+]0;sebas@sebas-N46VB: ~/taller1[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1[01;31m[00m$ cp -avr b d
+'b' -> 'd'
+'b/c' -> 'd/c'
+'b/c/archivo' -> 'd/c/archivo'
+'b/archivo' -> 'd/archivo'
+]0;sebas@sebas-N46VB: ~/taller1[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1[01;31m[00m$ (du -hs a; du-hs -hs[C[C[C b [K; du -hs d;)>>tamanos
+]0;sebas@sebas-N46VB: ~/taller1[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1[01;31m[00m$ cp -avr tamanos .hiddentamanos
+'tamanos' -> '.hiddentamanos'
+]0;sebas@sebas-N46VB: ~/taller1[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1[01;31m[00m$ wc - tamanos >> cuenta
+^Z
+[1]+  Stopped                 wc - tamanos >> cuenta
+]0;sebas@sebas-N46VB: ~/taller1[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1[01;31m[00m$ wc - tamanos >> cuenta[C[1@l
+]0;sebas@sebas-N46VB: ~/taller1[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1[01;31m[00m$ cd a/
+]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ echo cd a/wc -l tamanos >> cuenta[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -avr tamanos .hiddentamanos(du -hs a; du -hs b; du -hs d;)>>tamanos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -avr b d[K[5Pmv c brm -f archivo find . -type d -exec touch {}/archivo \;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd taller1/[Kmkdir -p taller1/{a,b,c}exit[Ksed 's/.txt/.dat/' marcas >>marcasdat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat marcas[Ksed 's/.txt/.dat' marcas >>marcasdat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e "motorola.txt\nmicrosoft.txt\nasus.txt\nsaamsung.txt\ncocacola.txt\npepsi.txt\narmani.txt\nnissan.txt\nhonda.txt\nnorma.txtt">>marcas
+]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ [K]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ echo -e "motorola.txt\nmicrosoft.txt\nasus.txt\nsaamsung.txt\ncocacola.txt\npepsi.txt\narmani.txt\nnissan.txt\nhonda.txt\nnorma.txtt">>marcas[A[A]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ cd a/[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l tamanos >> cuenta[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -avr tamanos .hiddentamanos(du -hs a; du -hs b; du -hs d;)>>tamanos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -avr b d[K[5Pmv c brm -f archivo find . -type d -exec touch {}/archivo \;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd taller1/[Kmkdir -p taller1/{a,b,c}exit[Ksed 's/.txt/.dat/' marcas >>marcasdat
+]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ sed 's/.txt/.dat/' marcas >>marcasdat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e "motorola.txt\nmicrosoft.txt\nasus.txt\nsaamsung.txt\ncocacola.txt\npepsi.txt\narmani.txt\nnissan.txt\nhonda.txt\nnorma.txtt">>marcas[A[A]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ cd a/[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l tamanos >> cuenta[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -avr tamanos .hiddentamanos(du -hs a; du -hs b; du -hs d;)>>tamanos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp -avr b d[K[5Pmv c brm -f archivo find . -type d -exec touch {}/archivo \;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd taller1/[Kmkdir -p taller1/{a,b,c}exit[Ksed 's/.txt/.dat/' marcas >>marcasdat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat marcas[Ksed 's/.txt/.dat' marcas >>marcasdat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e "motorola.txt\nmicrosoft.txt\nasus.txt\nsaamsung.txt\ncocacola.txt\npepsi.txt\narmani.txt\nnissan.txt\nhonda.txt\nnorma.txtt">>marcas[A[A]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ cd a[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp -avr tamanos .hiddentamanos[18Pat tamanos (du -hs a; du -hs b; du -hs d)>>tamanos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcp -avr b dc[C[Cv[C[C[C[C[C[C[C[C[C[5P[C[C[Cmv c brm -f archivo find . -type d -exec touch {}/archivo \;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd taller1/[Kmkdir -p taller1/{a,b,c}eteor run --settings settings.json [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcd PSP-Connect/latex --versionsudo apt-get install texlive-full[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Platex --versions[Kcd ..ls[C[C[Ccd Desktop/PSP-Connect/ls[Ksudo apt-get install ubuntu-gnome-desktop[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscriptl[Krm -f AdobeAIRInstaller.bin ls[Kcdlsscript[1Pcd ..[3Plscdmkdir probando/{a,b,c}[14Phistory [2Pscript[1Pcd ..PSP-Connect/..[Kscripthistory mkdir probando/{a,b,c}cd[Klscd ..script[4Plscdlsrm -f AdobeAIRInstaller.bin l[Kscript[2Pexitsudo apt-get install ubuntu-gnome-desktop[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd Desktop/PSP-Connect/ls ..[Kcd[C[C[C[3Plsatex --versionsudo apt-get install texlive-full[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Platex --versioncd PSP-Connect/meteor run --settings settings.json [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pkdir -p taller1/{a,b,c}[13Pcd taller1/find . -type d -exec touch {}/archivo \;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Prm -f archivo [8Pmv c bcv c d[5@-avr [C[C[Cp[C[C[C[C[C[C[C[C[Cb[C[Cls[K(du -hs a; du -hs b; du -hs d)>>tamanos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat tamanos [Kp -avr tamanos .hiddentamanosd a[Kecho -e "motorola.txt\nmicrosoft.txt\nasus.txt\nsaamsung.txt\ncocacola.txt\npepsi.txt\narmani.txt\nnissan.txt\nhonda.txt\nnorma.txtt">>marcas[A[A]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ [13Psed 's/.txt/.dat' marcas >>marcasdat
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat marcas[Ksed 's/.txt/.dat/' marcas >>marcasdat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kmkdir -p taller1/{a,b,c}[13Pcd taller1/find . -type d -exec touch {}/archivo \;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Prm -f archivo [8Pmv c bcp -avr b d(du -hs a; du -hs b; du -hs d;)>>tamanos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcp -avr tamanos .hiddentamanos[8Pwc - tamanos >> cuenta[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd a/[Kecho -e "motorola.txt\nmicrosoft.txt\nasus.txt\nsaamsung.txt\ncocacola.txt\npepsi.txt\narmani.txt\nnissan.txt\nhonda.txt\nnorma.txtt">>marcas[A[A]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ [12Psed 's/.txt/.dat/' marcas >>marcasdat
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksorty [K[K marcas [K>>marcassort
+]0;sebas@sebas-N46VB: ~/taller1/a[01;32msebas@sebas-N46VB[00m:[01;34m~/taller1/a[01;31m[00m$ z[Kcd ..[K[K[K
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ zip -r[Kr taller1.zip taller1
+  adding: taller1/ (stored 0%)
+  adding: taller1/tamanos (deflated 24%)
+  adding: taller1/b/ (stored 0%)
+  adding: taller1/b/c/ (stored 0%)
+  adding: taller1/b/c/archivo (stored 0%)
+  adding: taller1/b/archivo (stored 0%)
+  adding: taller1/d/ (stored 0%)
+  adding: taller1/d/c/ (stored 0%)
+  adding: taller1/d/c/archivo (stored 0%)
+  adding: taller1/d/archivo (stored 0%)
+  adding: taller1/.hiddentamanos (deflated 24%)
+  adding: taller1/a/ (stored 0%)
+  adding: taller1/a/marcasdat (deflated 38%)
+  adding: taller1/a/marcas (deflated 38%)
+  adding: taller1/a/marcassort (deflated 37%)
+  adding: taller1/a/archivo (stored 0%)
+  adding: taller1/cuenta (stored 0%)
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ rm -f [K[Krdf[K[Kf taller1/b/c/
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ rm -rf taller1/b/c/zip -r taller1.zip taller1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Prm -rf taller1/b/c/[1P/c/d/c/
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ exit
+exit
+There are stopped jobs.
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ los
+No command 'los' found, did you mean:
+ Command 'lrs' from package 'lrslib' (universe)
+ Command 'lios' from package 'lios' (universe)
+ Command 'lvs' from package 'lvm2' (main)
+ Command 'les' from package 'atm-tools' (universe)
+ Command 'eos' from package 'elk-lapw' (universe)
+ Command 'bos' from package 'openafs-client' (universe)
+ Command 'vos' from package 'openafs-client' (universe)
+ Command 'ols' from package 'speech-tools' (universe)
+ Command 'ls' from package 'coreutils' (main)
+los: command not found
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ [H[2J]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ ls
+[0m[01;34mDesktop[0m    examples.desktop  [01;34mPublic[0m       [01;34mTemplates[0m   [01;34mVirtualBox VMs[0m
+[01;34mDocuments[0m  [01;34mMusic[0m             [01;34mtaller1[0m      typescript
+[01;34mDownloads[0m  [01;34mPictures[0m          [01;31mtaller1.zip[0m  [01;34mVideos[0m
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ exit
+exit
+There are stopped jobs.
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ ^C
+]0;sebas@sebas-N46VB: ~[01;32msebas@sebas-N46VB[00m:[01;34m~[01;31m[00m$ exit
+exit
+
+Script done on lun 05 sep 2016 12:04:09 COT
