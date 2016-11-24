@@ -1,4 +1,6 @@
 #!/bin/bash
+#$1 operation
+#$2 package
 OS=$(lsb_release -si)
 
 case "$OS" in

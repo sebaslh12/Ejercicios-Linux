@@ -1,9 +1,15 @@
 #!/bin/bash
 
 projectName=$(zenity --entry --title "Nombre del projecto" --text="Nombre")
-projectLanguage=$(zenity --list --column "Lenguaje"  "C" "C++" "Python" "Java" --text "Seleccione el lenguaje del proyecto")
-projectPath=$(zenity --file-selection --directory)
-
-createProject=$(./createproject.sh "$projectPath"  "$projectLanguage" "$projectName")
-
-#activeProject=$(./activeproject.sh "$projectPath")
+if [ "$?" -eq "0" ]; then
+	projectLanguage=$(zenity --list --column "Lenguaje"  "C" "C++" "Python" "Java" --text "Seleccione el lenguaje del proyecto")
+	if [ "$?" -eq "0" ]; then
+		projectPath=$(zenity --file-selection --directory)
+		if [ "$?" -eq "0" ]; then
+			createProject=$(./createproject.sh "$projectPath"  "$projectLanguage" "$projectName")
+			if [ "$?" -eq "0" ]; then
+				activeProject=$(./activeproject.sh "$projectPath")
+			fi
+		fi
+ 	fi
+fi
