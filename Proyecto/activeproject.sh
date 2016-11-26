@@ -1,5 +1,3 @@
 #!/bin/bash
+#$1 projectPath
 
-projectPath=$(zenity --file-selection --directory --title "Escoja el proyecto que desea abrir")
-
-create=$(./updateMakefile.sh "$projectPath")

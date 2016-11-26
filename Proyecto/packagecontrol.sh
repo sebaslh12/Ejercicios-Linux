@@ -6,15 +6,15 @@ OS=$(lsb_release -si)
 case "$OS" in
 	"Ubuntu")
 		case "$1" in
-			"install")
+			"Instalar")
 				installing=$(sudo apt-get install "$2")
 				echo "$installing"
 				;;
-			"uninstall")
+			"Desinstalar")
 				uninstall=$(sudo apt-get remove "$2")
 				echo "$uninstall"
 				;;
-			"update")
+			"Actualizar")
 				updating=$(sudo apt-get install "$2")
 				echo "$updating"
 				;;
@@ -22,13 +22,13 @@ case "$OS" in
 		;;
 	"Fedora")
 		case "$1" in
-			"install")
+			"Instalar")
 				$(sudo yum install "$2")
 				;;
-			"uninstall")
+			"Desinstalar")
 				$(sudo rm -e "$2")
 				;;
-			"update")
+			"Actualizar")
 				$(sudo yum update "$2")
 				;;
 		esac

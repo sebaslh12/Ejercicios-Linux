@@ -5,18 +5,22 @@
 case "$2" in
 	"C" )
 		projectRoot=$(mkdir "$1/$3" "$1/$3/headers" "$1/$3/source")
-		echo "int main(int argc, char *argv[]){ printf('Hello World \n');}">"$1/$3/main.c"
+		echo 'int main(int argc, char *argv[]){ printf("Hello World \n");}'>"$1/$3/main.c"
 		makefile=$(touch "$1/$3/Makefile")
 		$(touch "$1/$3/.proyectoC")
 		;;
 	"C++" )
 		projectRoot=$(mkdir "$1/$3" "$1/$3/headers" "$1/$3/source")
-		echo "int main(int argc, char *argv[]){ printf('Hello World \n');}">"$1/$3/main.cc"
+		echo 'int main(int argc, char *argv[]){ printf("Hello World \n");}'>"$1/$3/main.cc"
 		makefile=$(touch "$1/$3/Makefile")
 		$(touch "$1/$3/.proyectoCPlus")
 		;;
 	"Python" )
+		projectRoot=$(mkdir "$1/$3")
+		echo 'print "Hello World"' >"$1/$3/main.py"
 		;;
 	"Java" )
+		projectRoot=$(mkdir "$1/$3")
+		echo 'public class main { public static void main(String[] args) { System.out.println("Hello, World"); }}'>"$1/$3/main.java"
 		;;
 esac
