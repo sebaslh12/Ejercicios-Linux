@@ -23,13 +23,25 @@ case "$OS" in
 	"Fedora")
 		case "$1" in
 			"Instalar")
-				$(sudo yum install "$2")
+				if [ "$2" == "g++" ]; then
+					$(sudo yum install "gcc-c++")
+				else
+					$(sudo yum install "$2")
+				fi
 				;;
 			"Desinstalar")
-				$(sudo rm -e "$2")
+				if [ "$2" == "g++" ]; then
+					$(sudo rm -e "gcc-c++")
+				else
+					$(sudo rm -e "$2")
+				fi
 				;;
 			"Actualizar")
-				$(sudo yum update "$2")
+				if [ "$2" == "g++" ]; then
+					$(sudo yum update "gcc-c++")
+				else
+					$(sudo yum update "$2")
+				fi
 				;;
 		esac
 		;;
