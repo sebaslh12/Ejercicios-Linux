@@ -18,9 +18,11 @@ case "$2" in
 	"Python" )
 		projectRoot=$(mkdir "$1/$3")
 		echo 'print "Hello World"' >"$1/$3/main.py"
+		$(touch "$1/$3/.proyectoPython")
 		;;
 	"Java" )
 		projectRoot=$(mkdir "$1/$3")
 		echo 'public class main { public static void main(String[] args) { System.out.println("Hello, World"); }}'>"$1/$3/main.java"
+		$(touch "$1/$3/.proyectoJava")
 		;;
 esac
